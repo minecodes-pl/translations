@@ -1,0 +1,121 @@
+
+Save New Duplicate & Edit Just Text Twitter
+#Configuration of plot permissions items in gui.
+permissions:
+  UPGRADE_MANAGE:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz'
+    - '&7będzie mógł ulepszyć działkę.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Upgrade plota
+    texture: null
+    enchantments: {}
+  KICK_MEMBER:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7wyrzucać graczy z działki.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Wyrzucanie graczy z działki.
+    texture: null
+    enchantments: {}
+  PANEL_OPEN:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7otwierać główne menu działki.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Otwieranie menu.
+    texture: null
+    enchantments: {}
+  EXPIRATION_MANAGE:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7przedłużać działkę.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Przedłużanie działki.
+    texture: null
+    enchantments: {}
+  PERMISSION_MANAGE:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7edytować permisje członków.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Zmiana permisji członków.
+    texture: null
+    enchantments: {}
+  MANAGE_VISIBILITY:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7ukryć blok i hologram.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Edycja widoczności bloku i hologramu.
+    texture: null
+    enchantments: {}
+  INVITE_MEMBER:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7zapraszać graczy do działki.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Zapraszaszanie graczy do działki.
+    texture: null
+    enchantments: {}
+  CHANGE_FLAG:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7zmieniać uprawnienia na działce.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Zmiana uprawnień.
+    texture: null
+    enchantments: {}
+  RENAME_PLOT:
+    lore:
+    - ''
+    - '&7Czy posiada: &e{hasPermission}'
+    - ''
+    - '&7Po nadaniu tej permisji, gracz będzie mógł'
+    - '&7zmienić nazwę działki.'
+    - ''
+    material: PAPER
+    flags: []
+    display-name: Zmiana nazwy działki.
+    texture: null
+    enchantments: {}

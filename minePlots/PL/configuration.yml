@@ -1,0 +1,197 @@
+
+Save New Duplicate & Edit Just Text Twitter
+#########################
+#        DATABASE
+#########################
+database-configuration:
+  #Database port.
+  port: 3306
+  #Database address.
+  hostname: 204.10.194.100
+  #Database name where the mineLogin table should be created.
+  base: s7_ploty
+  #Database type.
+  #Options: MYSQL, H2, FLAT, MONGODB
+  database-type: FLAT
+  #Database username.
+  username: u7_7hOonxBGK4
+  #Database password.
+  password: Qm!@.Gh=7oMcM1.jbpSBpcdc
+#Should the list of disabled worlds for plot creation be inverted?
+#false - the list functions as blacklist
+#true - the list functions as whitelist
+invert-disabled-worlds: false
+#########################
+#        LIMITS
+#########################
+limits:
+  #Limit on the number of plots that a player with the given permission can have.
+  #To set a limit, you need to add the plots.limit.xyz permission
+  plots-limit:
+    default: 1
+    svip: 10
+    vip: 4
+  #Plot slot limit that a player with a given permission can have.
+  #To set a limit, you need to add the plots.slots.xyz permission
+  slots-limit:
+    default: 5
+    svip: 15
+    vip: 10
+  #The limit of the size of the plot that a player with the given permission can have.
+  #To set a limit, you need to add the plots.size.xyz permission
+  size-limit:
+    default: 20
+    svip: 60
+    vip: 40
+#Minimum distance from the spawn.
+from-spawn-distance: 100
+#########################
+#       EXPIRATION
+#########################
+expiration:
+  #Maximum team expiration hours.
+  maximum-expiration-hours: 256
+  #How much hours 
+  default-expiration-hours: 48
+  #Enable expiration.
+  enable: true
+  #Announcement when the plot expired.
+  broadcast-when-team-are-expired: true
+#Minimum distance between plots.
+minimum-distance-between-plots: 122
+#Worlds where plot creation is disabled.
+disable-worlds:
+- world_nether
+- world_the_end
+#########################
+#    DEFAULTS SETTINGS
+#########################
+defaults:
+  #The initial plot size measured from the center block to one of the sides.
+  default-size: 10
+  #Starter limit of members in the plot.
+  default-slots: 5
+  #Initial plot name.
+  default-plot-name: Działka
+#Maximum number of characters in the plot name.
+maximum-name-length: 20
+#########################
+#       HOLOGRAMS
+#########################
+hologram:
+  #Configuration of the hologram line.
+  #Placeholders: {name}, {owner}
+  lines:
+  - '&a&lminePlots'
+  - '&a&lTranslation by asmek1'
+  - ''
+  - '&7Nazwa działki: &e{name}'
+  - '&7Właściciel: &e{owner}'
+  - ''
+  - '&e&lKliknij aby otworzyć panel'
+  #The space between the lines of the hologram.
+  line-height: 0.25
+  #Should plots have information holograms.
+  enable: true
+  #How many blocks above the center of the plot should the hologram appear.
+  added-yblockfromcenter: 2.0
+#Plot names that are not allowed on the server.
+blocked-plot-names:
+- admin
+- moderator
+#########################
+#     EXPIRATION TASK
+#########################
+expiration-task:
+  #Who should receive the reminders?
+  #ALL_MEMBERS - all members of the plot
+  #ONLY_OWNER - the owner of the plot
+  #MEMBERS_WITH_PERMISSION - all members of the plot with permission to renew the plot
+  notification-scope: MEMBERS_WITH_PERMISSION
+  #Values: DAYS, HOURS, MINUTES, SECONDS
+  min-plot-expire-time-unit: DAYS
+  #Should the plugin send a reminder about plot renewal?
+  enabled: true
+  #When should the plugin start sending reminders about plot renewal?
+  min-plot-expire-time: 1
+  #How often should the plugin send reminders?
+  reminder-interval: 1
+  #Values: DAYS, HOURS, MINUTES, SECONDS
+  reminder-interval-unit: HOURS
+  #Should the plugin send a reminder on server join?
+  remind-on-join: true
+#########################
+#     VISUALIZATION
+#########################
+visualize:
+  #How to show the boundaries of the plot.
+  #Options: BLOCKS, PARTICLES
+  visualize-type: BLOCKS
+  #Time of showing plot boundaries in seconds.
+  visualize-time: 60
+  #Particles that is to show the plot border.
+  visualize-particles:
+    #Configuration for RGB particles color when Particle type is REDSTONE.
+    #Use Color Picker for prepare color settings.
+    dust-particles:
+      green: 178
+      size: 1.0
+      blue: 45
+      red: 255
+    #Particles type.
+    #All available types: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+    particle: REDSTONE
+  #Material that is to show the plot border.
+  visualize-material: RED_CONCRETE
+#########################
+#         ECONOMY
+#########################
+economy:
+  #Cost for one plot size upgrade.
+  cost-for-one-plot-size-upgrade: 50.0
+  #Economy type for teams plugin.
+  #Options: VAULT, ITEMS
+  economy-type: ITEMS
+  #Enable economy.
+  enable: true
+  #Cost for one day of expiration.
+  cost-for-one-expiration-day: 100.0
+  #Economy item for ITEMS economy type.
+  economy-item: EMERALD
+  #How much blocks will be added to plot size when upgrading plot size?
+  upgrading-plot-size-blocks: 5
+  #How much members slots will be added when upgrading members slots?
+  upgrading-members-slots: 1
+  #Cost for one members slot.
+  cost-for-one-members-slot-upgrade: 20.0
+#Teleportation time given in seconds.
+teleport-time: 5
+#Date format for each plugin messages with time.
+date-format: dd.MM.yyyy HH:mm:ss
+#Players with the plots.flying permission can fly on the parcel they are added to or own.
+flying-on-plots: false
+#########################
+#    CRAFTING RECIPE
+#########################
+crafting-recipe:
+  #The way items are laid out in the recipe.
+  shape:
+  - OOO
+  - ODO
+  - OOO
+  #Recipe ingredients.
+  ingredients:
+    D: DIAMOND
+    O: OAK_LOG
+  #A block with which the player can create a plot.
+  plot-block:
+    material: CAMPFIRE
+    item-meta:
+      display-name: '&6Blok do stworzenia działki!'
+      lore:
+      - ' '
+      - '&ePostaw blok.'
+#Expiration of the plot invitation given in seconds.
+member-invite-time-out: 5
+#Your license key.
+license-key: 

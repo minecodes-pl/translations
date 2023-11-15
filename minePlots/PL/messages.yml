@@ -1,0 +1,188 @@
+
+Save New Duplicate & Edit Just Text Twitter
+successfully-admin-extended-expiration-date: '&aPomyślnie przedłużono datę ważności
+  działki o {time} {unit}.'
+dont-have-member-permission-lore: '&cNie posiada'
+successfully-show-plot-block: '&aPomyślnie przywrócono widoczność bloku działki.'
+#Placeholders: {name}
+successfully-added-flag: '&aPomyślnie dodano flagę &e{name} &ado działki.'
+blocked-plot-name: Zablokowana nazwa!
+visualize-is-already-enabled: '&cWizualizacja działki jest już włączona.'
+#Placeholders: {name}, {player}
+successfully-added-you-to-plot: '&aZostałeś dodany do działki {name} przez {player}'
+small-distance-to-spawn: '&cOdległość od spawnu jest zbyt krótka.'
+you-are-not-member: '&cTen gracz nie jest członkiem działki.'
+plot-already-opened: '&cDziałka jest już otwarta.'
+#Placeholders: {target}
+successfully-kick-member: '&cPomyślnie wyrzucono gracza {target} z działki.'
+plot-terrain-is-closed-on-teleport: '&cW obszarze, do którego chcesz się teleportować,
+  jest działka o zamkniętym obszarze.'
+plot-already-closed: '&cDziałka jest teraz zamknięta.'
+#Placeholders: {name}, {player}
+successfully-your-kick-from-plot: '&cZostałeś wyrzucony z działki {name} przez gracza
+  {player}.'
+#Placeholders: {name}
+successfully-removed-flag: '&cPomyślnie usunięto flagę &e{name} &c z działki.'
+offline-status-member: '&cZłamany!'
+plot-with-this-id-is-not-exists: '&cDziałka o tym id nie istnieje.'
+successfully-hide-plot-block: '&aBloki działki zostały pomyślnie ukryte.'
+#Placeholders: {name}, {owner}
+player-entry-to-plot: '&aWszedłeś na działkę &e{name} &akierowaną przez &6{owner}!'
+#Placeholders: {name}
+plot-invite-time-out: '&cZaproszenie na działkę {name} wygasło!'
+invite-is-not-exists: '&cTakie zaproszenie nie istnieje!'
+successfully-show-plot-hologram: '&aWidoczność hologramu działki została pomyślnie
+  przywrócona.'
+plots-usage-commands:
+- ' &8●●●●●●●●●●●● &aminePlots &8●●●●●●●●●●●●'
+- ' &8>> &7/plot help - &ePokaż listę komend.'
+- ' &8>> &7/plot accept <id> - &eAkceptuj zaproszenie na działkę.'
+- ' &8>> &7/plot info - &ePokaż informacje o działce.'
+- ' &8>> &7/plot crafting - &ePokaż przepis na działkę.'
+- ' &8>> &7/plot invite <gracz> - &eZaproś gracza na działkę.'
+- ' &8>> &7/plot kick <gracz> - &eWyrzuć członka z działki.'
+- ' &8>> &7/plot leave - &eOpuść działkę.'
+- ' &8>> &7/plot limits - &ePokaż limity graczy.'
+- ' &8>> &7/plot panel - &eOtwórz panel działki.'
+- ' &8>> &7/plot close - &eZamknij obszar działki.'
+- ' &8>> &7/plot open - &eOtwórz obszar działki.'
+- ' &8>> &7/plot home - &eTeleportuj się do domu działki.'
+- ' &8>> &7/plot visualise - &ePokaż granicę działki.'
+- ' &8>> &7/plot sethome - &eSkonfiguruj lokalizację domu działki.'
+- ' &8●●●●●●●●●●●● &aminePlots &8●●●●●●●●●●●●'
+online-status-member: '&aPłatne!'
+flying-successfully-enabled: '&aPomyślnie włączono latanie na obszarze działki.'
+#Placeholders: {name}
+successfully-accepted-join: '&aPomyślnie zaakceptowano dołączenie do działki {name}.'
+too-long-plot-name: Nazwa jest zbyt długa!
+teleport-canceled: '&cTeleportacja została anulowana!'
+#Placeholders: {target}
+successfully-give-plot-block: '&aBloki działki dla gracza {target} zostały pomyślnie
+  nadane.'
+#Placeholders: {minimum-distance}, {distance-left}
+small-distance-to-other-plot: '&cOdległość od innych działek jest zbyt krótka ({minimum-distance}
+  bloków). (Pozostało {distance-left})'
+#Placeholders: {flag}, {description}
+information-about-flag: '&cDziałka jest chroniona flagą &4{flag}&c!'
+command-is-only-for-player: '&cTa komenda jest przeznaczona tylko dla gracza!'
+successfully-extended-expiration-date: '&aPomyślnie przedłużono datę ważności działki
+  o {days} dni.'
+#Placeholders: {name}, {player}, {id}
+successfully-your-invited-to-plot: '&aOtrzymałeś zaproszenie do działki gracza {player}
+  o nazwie {name}. Aby zaakceptować, wpisz &e/plot akceptuj {id}'
+#Placeholders: {blocks}
+limit-size: '&cOsiągnięto limit rozmiaru działki {blocks} od środka.'
+#Placeholders: {name}, {owner}, {center}, {expireIn}, {size}, {members}
+plot-information:
+- ''
+- ' &8# &7Id: &e{id}'
+- ' &8# &7Nazwa: &e{name}'
+- ' &8# &7Właściciel: &e{owner}'
+- ' &8# &7Środek: &e{center}'
+- ' &8# &7Wygaśnie o: &e{expireAt}'
+- ' &8# &7Rozmiar: &e{size}'
+- ' &8# &7Rozmiar członków: &e{members}/{slots}'
+- ''
+flying-is-disabled-outside-the-plot: '&cLatanie jest wyłączone poza obszarem działki
+  bez uprawnienia &eplots.flying.bypass&c.'
+successfully-delete-plot: '&aPomyślnie usunięto działkę!'
+already-maximum-expiration-time: '&cOsiągnięto już maksymalny czas ważności.'
+failed-reload-configs: '&cWystąpił błąd podczas przeładowywania konfiguracji, sprawdź
+  konsolę.'
+successfully-created-plot: '&aDziałka została pomyślnie utworzona!'
+this-player-is-already-member: '&cTen gracz jest już dodany do działki.'
+#Placeholders: {limit}
+limit-plots: '&cOsiągnięto limit działek {limit}!'
+#Placeholders: {name}
+successfully-rename-plot: '&aPomyślnie zmieniono nazwę działki na {name}.'
+#Placeholders: {target}, {name}
+successfully-added-to-plot: '&aPomyślnie dodano gracza &e{target} &ado działki &e{name}'
+already-teleport: '&cAktualnie jesteś już w trakcie teleportacji.'
+cant-break-plot-block: '&cNie możesz zniszczyć bloku działki!'
+teleport-in: '&aTeleportacja nastąpi za {seconds} sekundy.'
+#Placeholders: {name}, {xyz}
+broadcast-during-the-expiry-of-validity:
+- ''
+- '&4&lUwaga!'
+- ''
+- '&7Działka {name} wygasła! Znajdowała się na pozycji {xyz}'
+- ''
+command-usage: '&cPoprawne użycie komendy: {usage}'
+#Placeholders: {name}
+successfully-leave-plot: '&cPomyślnie opuściłeś działkę {name}.'
+plots-usage-admin-commands:
+- ' &8●●●●●●●●●●●● &cminePlots &8●●●●●●●●●●●●'
+- ' &8>> &7/plotsadmin pomoc - &ePokaż listę komend.'
+- ' &8>> &7/plotsadmin przeładuj - &ePrzeładuj konfiguracje wtyczki.'
+- ' &8>> &7/plotsadmin daj <gracz> <ilość> - &eDaj blok działki graczowi.'
+- ' &8>> &7/plotsadmin dodaj <gracz> - &eDodaj członka do działki jako administrator.'
+- ' &8>> &7/plotsadmin wyrzuć <gracz> - &eWyrzuć członka z działki jako administrator.'
+- ' &8>> &7/plotsadmin działki <gracz> - &eSprawdź listę działek gracza.'
+- ' &8>> &7/plotsadmin wygaśnięcie <czas> <jednostka> - &ePrzedłuż ważność działki.'
+- ' &8●●●●●●●●●●●● &cminePlots &8●●●●●●●●●●●●'
+#Placeholders: {slots}
+successfully-upgrade-slots: '&aPomyślnie zwiększono limit miejsc na działce do {slots}!'
+#Placeholders: {blocks}
+successfully-upgrade-size: '&aPomyślnie zwiększono limit rozmiaru działki do {blocks}
+  od środka.'
+here-is-not-plot: '&cNa tej pozycji nie ma działki!'
+#Placeholders: {permission}
+dont-have-permission: '&cNie masz uprawnień: &e{permission}'
+#Placeholders: {seconds}
+successfully-enable-visualize: '&aPomyślnie włączono wizualizacje działki na &e{seconds}
+  sekund.'
+#Placeholders: {slots}
+limit-slots: '&cOsiągnięto limit miejsc na działce {slots}!'
+#Placeholders: {name}, {xyz}
+expiry-notification:
+- ''
+- '&4&lUwaga!'
+- ''
+- '&7Działka {name} wygaśnie o &c{time}&7!'
+- ''
+#Placeholders: {target}
+player-is-offline: '&cGracz {target} jest obecnie offline!'
+you-dont-have-any-plot: '&cNie masz żadnej działki!'
+this-world-is-disable-fro-creating-plot: '&cTen świat jest wyłączony z tworzenia działek.'
+plot-has-maximum-members: '&cDziałka, do której chcesz dołączyć, ma już maksymalną
+  liczbę członków.'
+#Placeholders: {permission}, {target}
+successfully-added-permission: '&aPomyślnie przyznano uprawnienia {permission} dla
+  {target}'
+#Placeholders: {permission}, {target}
+successfully-removed-permission: '&aPomyślnie usunięto uprawnienie {permission} dla
+  {target}'
+plot-you-were-on-has-been-closed: '&cDziałka, na której byłeś, została zamknięta.
+  Zostałeś przeniesiony na spawn!'
+plot-terrain-is-closed-on-entry: '&cObszar tej działki jest zamknięty!'
+successfully-plot-opened: '&aObszar działki został pomyślnie otwarty.'
+#Placeholders: {name}, {target}
+successfully-invite-player: '&aSuccessfully invited player {target} to plot {name}!'
+flag-removed: '&cRemoved'
+integration-witch-plot-by-admin: '&cInteraction with plot as Administrator!'
+#Placeholders: {cur_plots}, {max_plots}, {max_size}, {max_slots}
+limits-message:
+- ' &8●●●●●●●●●●●● &6✿ &8●●●●●●●●●●●●'
+- ' &8>> &7Maximum number of plots: &e{cur_plots}&7/&e{max_plots}'
+- ' &8>> &7Maximum lot size: &e{max_size}'
+- ' &8>> &7Maximum number of slots per plot: &e{max_slots}'
+- ' &8●●●●●●●●●●●● &6✿ &8●●●●●●●●●●●●'
+dont-have-permission-for-action: '&cYou do not have authority for this action.'
+successfully-reload-configs: '&aSuccessfully reloaded configurations!'
+data-not-available-placeholder: '&cData not available!'
+bad-plot-name: Wrong name!
+#Placeholders: {target}
+successfully-canceled-invite: '&cSuccessfully cancelled invite for player {target}'
+has-member-permission-lore: '&aYes'
+flag-added: '&aAdded'
+teleport-successfully: '&aYou have been successfully teleported!'
+no-founds: '&cLack of funding.'
+this-player-is-not-member: '&cThis player is not a member of the plot.'
+successfully-plot-closed: '&aThe plot area was successfully closed.'
+successfully-hide-plot-hologram: '&aA hologram of the plot was successfully hidden.'
+successfully-set-home: '&aSuccessfully set up a new plot home!'
+you-are-not-owner: '&cYou are not owner!'
+#Placeholders: {name}, {owner}
+player-leave-from-plot: '&cOpuściłeś obszar działki &e{name} &c, którą zarządza &6{owner}!'
+dont-have-that-member-permission: '&cNie masz odpowiednich uprawnień, aby to zrobić!'
+this-player-its-can-be-you: '&cTen gracz może nie być tobą.'

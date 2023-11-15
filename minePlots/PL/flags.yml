@@ -1,0 +1,242 @@
+
+Save New Duplicate & Edit Just Text Twitter
+#Configuration of the list of commands that should be blocked during the SETHOME flag.
+set-home-commands:
+- sethome
+- cmi:sethome
+- essentials:sethome
+#Configuration of plot flags items in gui.
+flags:
+- default-flag: true
+  flag-type: PVP
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość walki pomiędzy graczami.'
+    material: DIAMOND_SWORD
+    flags: []
+    display-name: '&4PVP'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: BUILD
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość budowania.'
+    material: STONE
+    flags: []
+    display-name: '&2Budowanie'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: DESTROY
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość niszczenia bloków.'
+    material: DIAMOND_PICKAXE
+    flags: []
+    display-name: '&2Niszczenie'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: INTERACT
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość integracji z blokami.'
+    material: CRAFTING_TABLE
+    flags: []
+    display-name: '&2Interakcje'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: ITEM_FRAME
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość integracji z ramkami na przedmioty.'
+    material: ITEM_FRAME
+    flags: []
+    display-name: '&2Ramki'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: CHEST
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość otwierania skrzynek.'
+    material: CHEST
+    flags: []
+    display-name: '&2Skrzynki'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: EXPLOSION
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość ekspozji na terenie działki.'
+    material: TNT
+    flags: []
+    display-name: '&2Eksplozje'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: LAVA
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Włącza możliwość interakcji z lawą na terenie działki.'
+    material: LAVA_BUCKET
+    flags: []
+    display-name: '&2Lava'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: WATER
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Włącza możliwość interakcji z wodą na terenie działki.'
+    material: WATER_BUCKET
+    flags: []
+    display-name: '&2Woda'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: IGNITE
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość podpalenia bloków.'
+    material: FLINT_AND_STEEL
+    flags: []
+    display-name: '&2Podpalanie'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: SNOW_MAN
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość budowy bałwana na terenie działki.'
+    material: SNOWBALL
+    flags: []
+    display-name: '&2Bałwan'
+    texture: null
+    enchantments: {}
+  configurable: false
+- default-flag: true
+  flag-type: ARMOR_STAND
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość interakcji z stojakami na zbroję.'
+    material: ARMOR_STAND
+    flags: []
+    display-name: '&2Stojak na zbroję'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: ENDER_PEARL
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość pereł na terenie działki.'
+    material: ENDER_PEARL
+    flags: []
+    display-name: '&2Perły'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: SET_HOME
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość ustawienia działki jako domu.'
+    material: RED_BED
+    flags: []
+    display-name: '&2Ustaw dom'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: DAMAGE_PASSIVE_MOBS
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość zadawania damage do przyjacielskich mobów.'
+    material: BEEF
+    flags: []
+    display-name: '&2Przyjacielskie moby'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: DAMAGE_AGGRESSIVE_MOBS
+  flag-item:
+    lore:
+    - ' &8» &7Toggle: {toggle}'
+    - ' &8» &7Możliwość zadawania damage do agresywnych mobów.'
+    material: BEEF
+    flags: []
+    display-name: '&2Agresywne moby'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: POTION
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość picia potek na terenie działki.'
+    material: POTION
+    flags: []
+    display-name: '&2Potki'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: true
+  flag-type: VEHICLE
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Możliwość używania pojazdów takich jak:'
+    - ' &f- &7Łódki'
+    - ' &f- &7Wagoniki'
+    material: MINECART
+    flags: []
+    display-name: '&2Pojazdy'
+    texture: null
+    enchantments: {}
+  configurable: true
+- default-flag: false
+  flag-type: RECEIVE_DAMAGE_FROM_MOBS
+  flag-item:
+    lore:
+    - ' &8» &7Status: {toggle}'
+    - ' &8» &7Otrzymywanie damage od mobów.'
+    material: GOLDEN_APPLE
+    flags: []
+    display-name: '&2Damage od mobów'
+    texture: null
+    enchantments: {}
+  configurable: true
+#Configure the location of notifications when an activity is blocked by a flag.
+#Possible options: CHAT, ACTION_BAR
+notification-type: ACTION_BAR

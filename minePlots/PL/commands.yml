@@ -1,0 +1,336 @@
+
+Save New Duplicate & Edit Just Text Twitter
+#########################
+#    PLAYER COMMANDS
+#########################
+player-commands:
+  #Configuration subcommand for kick member from plot.
+  kick-member-command:
+    #Command permission.
+    permission: plots.command.kick
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - wyrzuc
+    #Command usage.
+    usage: /plot kick <player>
+    #Command name.
+    name: kick
+  #Configuration subcommand for close plot territory.
+  plot-close-command:
+    #Command permission.
+    permission: plots.command.close
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - plotClose
+    #Command usage.
+    usage: /plot close
+    #Command name.
+    name: close
+  #Configuration subcommand for set plot home.
+  set-home-command:
+    #Command permission.
+    permission: plots.command.sethome
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - ustawdom
+    #Command usage.
+    usage: /plot sethome
+    #Command name.
+    name: sethome
+  #Configuration subcommand for open plot dashboard.
+  panel-command:
+    #Command permission.
+    permission: plots.command.limits
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - dashboard
+    #Command usage.
+    usage: /plot dashboard
+    #Command name.
+    name: panel
+  #Configuration subcommand for invite member to plot.
+  invite-command:
+    #Command permission.
+    permission: plots.command.invite
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - zapros
+    #Command usage.
+    usage: /plot invite <player>
+    #Command name.
+    name: invite
+  #Configuration subcommand for open plots homes gui.
+  plots-home-command:
+    #Command permission.
+    permission: plots.command.home
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - homes
+    #Command usage.
+    usage: /plot home
+    #Command name.
+    name: home
+  #Configuration subcommand for leave plot.
+  leave-command:
+    #Command permission.
+    permission: plots.command.leave
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - opusc
+    #Command usage.
+    usage: /plot leave
+    #Command name.
+    name: leave
+  #Configuration for main plugin command.
+  plot-command:
+    #Command permission.
+    permission: plots.command
+    #Command description.
+    description: Main command for plots.
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - plots
+    - dzialka
+    #Command usage.
+    usage: /plot
+    #Command name.
+    name: plot
+  #Configuration subcommand for preview plot crafting.
+  crafting-command:
+    #Command permission.
+    permission: plots.command.crafting
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - create
+    - utworz
+    #Command usage.
+    usage: /plot crafting
+    #Command name.
+    name: crafting
+  #Configuration subcommand for accept invite to plot.
+  accept-invite-command:
+    #Command permission.
+    permission: plots.command.accept
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - acceptInvite
+    - akceptuj
+    #Command usage.
+    usage: /plot accept <id>
+    #Command name.
+    name: accept
+  #Configuration subcommand for check plots limits.
+  limits-command:
+    #Command permission.
+    permission: plots.command.limits
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - limity
+    #Command usage.
+    usage: /plot limits
+    #Command name.
+    name: limits
+  #Configuration subcommand for plot info.
+  plot-info-command:
+    #Command permission.
+    permission: plots.command.info
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - plotInfo
+    - informacje
+    #Command usage.
+    usage: /plot info
+    #Command name.
+    name: info
+  #Configuration subcommand for enable plot visualization.
+  visualize-command:
+    #Command permission.
+    permission: plots.command.visualize
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - wizualizacja
+    #Command usage.
+    usage: /plot visualize
+    #Command name.
+    name: visualize
+  #Configuration subcommand for open plot territory.
+  plot-open-command:
+    #Command permission.
+    permission: plots.command.open
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - plotOpen
+    #Command usage.
+    usage: /plot open
+    #Command name.
+    name: open
+#########################
+# ADMINISTRATOR COMMANDS
+#########################
+admin-commands:
+  #Configuration subcommand for reload plugin configs.
+  reload-command:
+    #Command permission.
+    permission: plots.command.admin.reload
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - configsReload
+    - przeladuj
+    #Command usage.
+    usage: /plotadmin reload
+    #Command name.
+    name: reload
+  #Configuration subcommand for plot extension
+  expiration-command:
+    #Command permission.
+    permission: plots.command.admin.expiration
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - expirationPlot
+    - przedluz
+    #Command usage.
+    usage: /plotadmin expiration <time> <unit>
+    #Command name.
+    name: expiration
+  #Configuration subcommand for give plot block.
+  give-plot-command:
+    #Command permission.
+    permission: plots.command.admin.give
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - givePlot
+    - dajDzialke
+    #Command usage.
+    usage: /plotadmin give <player> <amount>
+    #Command name.
+    name: give
+  #Configuration for main admin plugin command.
+  admin-command:
+    #Command permission.
+    permission: plots.command.admin
+    #Command description.
+    description: Main plots command for administrator.
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - plotsadmin
+    - pa
+    #Command usage.
+    usage: /plotadmin
+    #Command name.
+    name: plotadmin
+  #Configuration subcommand for add member to plot.
+  add-member-command:
+    #Command permission.
+    permission: plots.command.admin.add
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - addMember
+    - dodaj
+    #Command usage.
+    usage: /plotadmin add <player>
+    #Command name.
+    name: add
+  #Configuration subcommand for kick member from plot.
+  kick-member-command:
+    #Command permission.
+    permission: plots.command.admin.kick
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - kickMember
+    - wyrzuc
+    #Command usage.
+    usage: /plotadmin kick <player>
+    #Command name.
+    name: kick
+  #Configuration subcommand for check players plots.
+  plots-check-command:
+    #Command permission.
+    permission: plots.command.admin.plots
+    #Command description.
+    description: ''
+    #Should this command be enabled?
+    enabled: true
+    #Command aliases.
+    aliases:
+    - plotsHome
+    - dzialki
+    #Command usage.
+    usage: /plotadmin plots <player>
+    #Command name.
+    name: plots
